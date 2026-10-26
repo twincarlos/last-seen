@@ -1,6 +1,8 @@
 # Last Seen
 
-Portal for the "Last Seen" escape room. Each room's laptop opens a messaging app showing the suspect's conversations. Photos, videos and voice memos are locked until participants enter the codes hidden in the room.
+Portal for the "Last Seen" escape room. Each room's laptop opens a messaging app showing one leader's conversations. Photos, videos and voice memos are locked until participants enter the codes hidden in the room.
+
+The story, the five rooms, and every unlockable with its recording script are in [MEDIA.md](MEDIA.md).
 
 ## Run locally
 
@@ -24,7 +26,8 @@ Unlock state lives in the laptop's `localStorage`, so a refresh keeps progress a
 Everything is in [src/content/rooms.ts](src/content/rooms.ts):
 
 - One entry per room. `owner` is whose laptop it is. Messages `from: 'me'` render on the right.
-- `codes` holds one code per media type (`photo`, `video`, `audio`). Matching ignores case and spaces.
+- The three shared chats (JTP CORE LEADERS, 4707 Carnival Committee, Carnival Setup) are written once at the top and rebuilt per owner so that owner's messages render as `me`.
+- `codes` holds one code per media type (`photo`, `video`, `audio`). Matching ignores case and spaces. One code unlocks every item of that type in the room.
 - Media files go in `public/media/room-N/` and are referenced by path. Keep videos at 720p.
 - `staffPin` at the top is the PIN for the staff pages.
 
