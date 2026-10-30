@@ -80,14 +80,14 @@ const UNKNOWN: Dated[] = [
   { day: 1012, id: 'u13', from: 'Unknown', time: 'Mon Oct 12, 8:22 PM', text: 'Nobody looks at me.' },
 
   { day: 1015, id: 'u14', from: 'Unknown', time: 'Thu Oct 15, 6:30 PM', text: 'Check your mailbox.' },
-  { day: 1015, id: 'u15', from: 'me', time: 'Thu Oct 15, 6:48 PM', media: { kind: 'photo', src: '/media/room-2/placeholder-photo.svg', caption: 'how do you know where i live', code: '1130' } },
+  { day: 1015, id: 'u15', from: 'me', time: 'Thu Oct 15, 6:48 PM', media: { kind: 'photo', src: '/media/room-2/1130-2.jpg', caption: 'how do you know where i live', code: '1130' } },
   { day: 1015, id: 'u16', from: 'Unknown', time: 'Thu Oct 15, 6:49 PM', text: 'I know everything about you. That is not a threat. That is the point.' },
   { day: 1015, id: 'u17', from: 'Unknown', time: 'Thu Oct 15, 7:45 PM', text: 'Service is long tonight. I am counting how many times you check your phone. Four.' },
   { day: 1015, id: 'u18', from: 'me', time: 'Thu Oct 15, 7:46 PM', text: 'youre in here' },
   { day: 1015, id: 'u19', from: 'Unknown', time: 'Thu Oct 15, 7:46 PM', text: 'Five.' },
-  { day: 1015, id: 'u19b', from: 'Unknown', time: 'Thu Oct 15, 7:47 PM', media: { kind: 'photo', src: '/media/room-2/placeholder-photo-2.svg', caption: 'Six.', code: '5190' } },
+  { day: 1015, id: 'u19b', from: 'Unknown', time: 'Thu Oct 15, 7:47 PM', media: { kind: 'photo', src: '/media/room-2/5190-2.png', caption: 'Six.', code: '5190' } },
 
-  { day: 1019, id: 'u20', from: 'Unknown', time: 'Mon Oct 19, 9:06 PM', media: { kind: 'photo', src: '/media/room-3/placeholder-photo.svg', caption: 'Your star. You get it when I take you.', code: '5502' } },
+  { day: 1019, id: 'u20', from: 'Unknown', time: 'Mon Oct 19, 9:06 PM', media: { kind: 'photo', src: '/media/room-3/5502-3.jpg', caption: 'Your star. You get it when I take you.', code: '5502' } },
   { day: 1019, id: 'u21', from: 'me', time: 'Mon Oct 19, 9:10 PM', text: 'take me where' },
   { day: 1019, id: 'u22', from: 'Unknown', time: 'Mon Oct 19, 9:10 PM', text: 'Somewhere nobody looks.' },
   { day: 1020, id: 'u23', from: 'me', time: 'Tue Oct 20, 7:14 PM', text: 'what are you doing right now' },
@@ -98,7 +98,7 @@ const UNKNOWN: Dated[] = [
   { day: 1022, id: 'u27', from: 'Unknown', time: 'Thu Oct 22, 9:40 PM', text: 'Friday after service, go to IHOP like always. I want to watch you not knowing which one of them I am.' },
   { day: 1022, id: 'u28', from: 'me', time: 'Thu Oct 22, 9:41 PM', text: 'one of who' },
   { day: 1022, id: 'u29', from: 'Unknown', time: 'Thu Oct 22, 9:41 PM', text: 'The people at your table. You trust all of them. That is your one weakness.' },
-  { day: 1023, id: 'u30', from: 'Unknown', time: 'Fri Oct 23, 10:41 PM', media: { kind: 'photo', src: '/media/room-4/placeholder-photo-2.svg', caption: 'You did not even notice me watching you.', code: '7034' } },
+  { day: 1023, id: 'u30', from: 'Unknown', time: 'Fri Oct 23, 10:41 PM', media: { kind: 'photo', src: '/media/room-4/7034-4.jpg', caption: 'You did not even notice me watching you.', code: '7034' } },
   { day: 1023, id: 'u31', from: 'me', time: 'Fri Oct 23, 10:42 PM', text: 'are you still here' },
   { day: 1023, id: 'u32', from: 'Unknown', time: 'Fri Oct 23, 10:42 PM', text: 'Always.' },
   { day: 1023, id: 'u33', from: 'me', time: 'Fri Oct 23, 11:05 PM', text: 'i looked at everyone tonight. i still dont know' },
@@ -127,8 +127,8 @@ const UNKNOWN: Dated[] = [
 
 const DETECTIVE: Dated[] = [
   { day: 1002, id: 'd1', from: 'me', time: 'Fri Oct 2, 9:30 PM', text: 'hi. i called the tip line last week about the missing people. i take photos at events. i think the same person is in two of my pictures' },
-  { day: 1002, id: 'd2', from: 'me', time: 'Fri Oct 2, 9:31 PM', media: { kind: 'photo', src: '/media/room-1/placeholder-photo-2.svg', caption: 'county fair in june. food truck night downtown two weeks ago. same hoodie. same phone. same spot behind the person who went missing', code: '2306' } },
-  { day: 1003, id: 'd3', from: 'Detective', time: 'Sat Oct 3, 10:15 AM', media: { kind: 'audio', src: '/media/room-1/placeholder-audio.wav', code: '0917' } },
+  { day: 1002, id: 'd2', from: 'me', time: 'Fri Oct 2, 9:31 PM', media: { kind: 'photo', src: '/media/room-1/2306-1.png', caption: 'county fair in june. food truck night downtown two weeks ago. same hoodie. same phone. same spot behind the person who went missing', code: '2306' } },
+  { day: 1003, id: 'd3', from: 'Detective', time: 'Sat Oct 3, 10:15 AM', media: { kind: 'audio', src: '/media/room-1/0917-1.wav', code: '0917' } },
   { day: 1003, id: 'd4', from: 'Detective', time: 'Sat Oct 3, 10:16 AM', text: 'Keep sending me what you have. Do not approach anyone.' },
   { day: 1009, id: 'd5', from: 'me', time: 'Fri Oct 9, 11:20 PM', text: 'someone has been messaging me. they know what i order. they know where i was tonight' },
   { day: 1010, id: 'd6', from: 'Detective', time: 'Sat Oct 10, 8:02 AM', text: 'Send me the number.' },
@@ -139,7 +139,7 @@ const DETECTIVE: Dated[] = [
   { day: 1016, id: 'd10', from: 'me', time: 'Fri Oct 16, 12:10 AM', text: 'they were in my church tonight. during service. they counted how many times i looked at my phone. they sent me a picture of the back of my head' },
   { day: 1016, id: 'd11', from: 'Detective', time: 'Fri Oct 16, 7:45 AM', text: 'Who was in the building.' },
   { day: 1016, id: 'd12', from: 'me', time: 'Fri Oct 16, 7:50 AM', text: 'everyone. its church' },
-  { day: 1016, id: 'd12b', from: 'Detective', time: 'Fri Oct 16, 4:30 PM', media: { kind: 'photo', src: '/media/room-2/placeholder-photo-3.svg', caption: 'The four from the other scenes. Yours is identical.', code: '6271' } },
+  { day: 1016, id: 'd12b', from: 'Detective', time: 'Fri Oct 16, 4:30 PM', media: { kind: 'photo', src: '/media/room-2/6271-2.jpg', caption: 'The four from the other scenes. Yours is identical.', code: '6271' } },
   { day: 1016, id: 'd12c', from: 'me', time: 'Fri Oct 16, 4:41 PM', text: 'so im next' },
   { day: 1016, id: 'd12d', from: 'Detective', time: 'Fri Oct 16, 4:42 PM', text: 'You are on a list. So am I now. Keep your phone on.' },
 
@@ -152,7 +152,7 @@ const DETECTIVE: Dated[] = [
   { day: 1023, id: 'd18', from: 'me', time: 'Fri Oct 23, 11:10 PM', text: 'they were at ihop tonight. they took a picture of me in the parking lot from across the lot' },
   { day: 1023, id: 'd19', from: 'Detective', time: 'Fri Oct 23, 11:12 PM', text: 'Did you see them.' },
   { day: 1023, id: 'd20', from: 'me', time: 'Fri Oct 23, 11:13 PM', text: 'i saw a hoodie by the corner of the building. every leader at my church has that hoodie' },
-  { day: 1024, id: 'd21', from: 'Detective', time: 'Sat Oct 24, 9:00 AM', media: { kind: 'audio', src: '/media/room-4/placeholder-audio-2.wav', code: '4807' } },
+  { day: 1024, id: 'd21', from: 'Detective', time: 'Sat Oct 24, 9:00 AM', media: { kind: 'audio', src: '/media/room-4/4807-4.wav', code: '4807' } },
   { day: 1024, id: 'd21b', from: 'Detective', time: 'Sat Oct 24, 9:01 AM', text: 'Make the list.' },
   { day: 1024, id: 'd22', from: 'me', time: 'Sat Oct 24, 9:10 AM', text: 'i already started' },
 
@@ -160,7 +160,7 @@ const DETECTIVE: Dated[] = [
   { day: 1029, id: 'd24', from: 'Detective', time: 'Thu Oct 29, 10:26 PM', text: 'I am working on getting a car there. Do not stand near a door. Do not be alone.' },
   { day: 1030, id: 'd25', from: 'me', time: 'Fri Oct 30, 6:40 PM', text: 'im telling my pastor everything after service' },
   { day: 1030, id: 'd26', from: 'Detective', time: 'Fri Oct 30, 6:41 PM', text: 'Good. Call me after.' },
-  { day: 1030, id: 'd26b', from: 'Detective', time: 'Fri Oct 30, 7:40 PM', media: { kind: 'audio', src: '/media/room-5/placeholder-audio-2.wav', code: '3579' } },
+  { day: 1030, id: 'd26b', from: 'Detective', time: 'Fri Oct 30, 7:40 PM', media: { kind: 'audio', src: '/media/room-5/3579-5.wav', code: '3579' } },
   { day: 1030, id: 'd27', from: 'Detective', time: 'Fri Oct 30, 8:30 PM', text: 'Emily. Call me.' },
   { day: 1030, id: 'd28', from: 'Detective', time: 'Fri Oct 30, 8:41 PM', text: 'Emily.' },
 ]
@@ -270,13 +270,13 @@ export const content: GameContent = {
             { id: 'g3', from: 'me', time: 'Thu Oct 1, 8:14 PM', text: 'and food truck night downtown in september' },
             { id: 'g4', from: 'Gabriel', time: 'Thu Oct 1, 8:15 PM', text: 'yes emily i go to things. is this about the missing people thing. because that was the fair and food truck night right' },
             { id: 'g5', from: 'me', time: 'Thu Oct 1, 8:16 PM', text: 'no' },
-            { id: 'g6', from: 'me', time: 'Thu Oct 8, 9:20 PM', media: { kind: 'photo', src: '/media/room-1/placeholder-photo.svg', caption: "where'd you get this", code: '4471' } },
+            { id: 'g6', from: 'me', time: 'Thu Oct 8, 9:20 PM', media: { kind: 'photo', src: '/media/room-1/4471-1.jpg', caption: "where'd you get this", code: '4471' } },
             { id: 'g7', from: 'Gabriel', time: 'Thu Oct 8, 9:24 PM', text: 'lost and found box at church. been in there forever. cool right' },
             { id: 'g8', from: 'me', time: 'Thu Oct 8, 9:24 PM', text: 'how long is forever' },
             { id: 'g9', from: 'Gabriel', time: 'Thu Oct 8, 9:25 PM', text: 'idk. a month? why do you care about my keychain' },
             { id: 'g10', from: 'me', time: 'Mon Oct 12, 7:50 PM', text: 'you skipping practice' },
             { id: 'g11', from: 'Gabriel', time: 'Mon Oct 12, 7:51 PM', text: 'not in the band emily lol. my friends game tonight' },
-            { id: 'g12', from: 'Gabriel', time: 'Mon Oct 12, 8:18 PM', media: { kind: 'photo', src: '/media/room-1/placeholder-photo-3.svg', caption: 'HE HIT A THREE', code: '6642' } },
+            { id: 'g12', from: 'Gabriel', time: 'Mon Oct 12, 8:18 PM', media: { kind: 'photo', src: '/media/room-1/6642-1.jpg', caption: 'HE HIT A THREE', code: '6642' } },
             { id: 'g13', from: 'me', time: 'Mon Oct 12, 8:19 PM', text: 'lol ok' },
             { id: 'g14', from: 'me', time: 'Thu Oct 15, 8:30 PM', text: 'do you have a key to the church' },
             { id: 'g15', from: 'Gabriel', time: 'Thu Oct 15, 8:33 PM', text: 'no?? winston and the pastors. why' },
@@ -324,7 +324,7 @@ export const content: GameContent = {
             { id: 'p1', from: 'me', time: 'Mon Oct 5, 9:40 PM', text: 'will i need to show you something. its about the missing people on the news. i think theyve been at our stuff' },
             { id: 'p2', from: 'Will', time: 'Mon Oct 5, 9:52 PM', text: 'Emily. Slow down. Show me what you have.' },
             { id: 'p3', from: 'me', time: 'Mon Oct 5, 9:53 PM', text: 'i sent two photos to a detective. the same person is behind two of the victims. and now someone is texting me' },
-            { id: 'p4', from: 'Will', time: 'Mon Oct 5, 10:10 PM', media: { kind: 'audio', src: '/media/room-2/placeholder-audio.wav', code: '7788' } },
+            { id: 'p4', from: 'Will', time: 'Mon Oct 5, 10:10 PM', media: { kind: 'audio', src: '/media/room-2/7788-2.ogg', code: '7788' } },
             { id: 'p5', from: 'me', time: 'Mon Oct 5, 10:14 PM', text: 'ok' },
             { id: 'p6', from: 'me', time: 'Fri Oct 9, 11:30 PM', text: 'did you call anyone' },
             { id: 'p7', from: 'Will', time: 'Sat Oct 10, 7:15 AM', text: 'I am praying about it. Please do not bring this to the group. Or to MM. Not yet.' },
@@ -346,7 +346,7 @@ export const content: GameContent = {
         notes([
           { id: 'x1', from: 'me', time: 'Thu Oct 15, 7:02 PM', text: 'the star came to my house. they know where i live.' },
           { id: 'x2', from: 'me', time: 'Fri Oct 16, 12:30 AM', text: 'thursday 7:45. they were in the room, behind me. who was on stage. who wasnt.' },
-          { id: 'x3', from: 'me', time: 'Fri Oct 16, 12:40 AM', media: { kind: 'video', src: '/media/room-2/placeholder-video.mp4', caption: 'live stream. 7:45 pm.', code: 'LIVESTREAM' } },
+          { id: 'x3', from: 'me', time: 'Fri Oct 16, 12:40 AM', media: { kind: 'video', src: '/media/room-2/LIVESTREAM-2.mp4', caption: 'live stream. 7:45 pm.', code: 'LIVESTREAM' } },
           { id: 'x4', from: 'me', time: 'Fri Oct 16, 12:45 AM', text: 'will told me not to tell mm. i dont know what that means yet.' },
         ]),
       ],
@@ -358,7 +358,7 @@ export const content: GameContent = {
     // Winston was running sports night. Red herring: the leaders hoodie on
     // Emily's doorbell camera, the keys, and his truck at church Sunday night.
     // Holds Unknown's star photo: the mug at the edge of the frame.
-    // Media: star photo 5502, doorbell video HOODIE, keys memo 3141,
+    // Media: star photo 5502, doorbell photo HOODIE, keys memo 3141,
     // sports night video CONES, church-at-night photo 9312.
     // -----------------------------------------------------------------------
     {
@@ -373,12 +373,12 @@ export const content: GameContent = {
           id: 'winston',
           title: 'Winston',
           messages: [
-            { id: 'w1', from: 'me', time: 'Thu Oct 15, 7:10 PM', media: { kind: 'video', src: '/media/room-3/placeholder-video.mp4', caption: 'is this you', code: 'HOODIE' } },
+            { id: 'w1', from: 'me', time: 'Thu Oct 15, 7:10 PM', media: { kind: 'photo', src: '/media/room-3/HOODIE-3.jpg', caption: 'is this you', code: 'HOODIE' } },
             { id: 'w2', from: 'Winston', time: 'Thu Oct 15, 7:31 PM', text: 'No. Why would I be at your house.' },
             { id: 'w3', from: 'me', time: 'Thu Oct 15, 7:32 PM', text: "that's your hoodie" },
             { id: 'w4', from: 'Winston', time: 'Thu Oct 15, 7:33 PM', text: 'That is the leaders hoodie. All nine of us got one. Gabriel sleeps in his.' },
             { id: 'w5', from: 'me', time: 'Thu Oct 15, 8:40 PM', text: 'how many keys to the church are there' },
-            { id: 'w6', from: 'Winston', time: 'Thu Oct 15, 9:02 PM', media: { kind: 'audio', src: '/media/room-3/placeholder-audio.wav', code: '3141' } },
+            { id: 'w6', from: 'Winston', time: 'Thu Oct 15, 9:02 PM', media: { kind: 'audio', src: '/media/room-3/3141-3.ogg', code: '3141' } },
             { id: 'w7', from: 'me', time: 'Thu Oct 15, 9:05 PM', text: 'just curious' },
             { id: 'w8', from: 'Winston', time: 'Thu Oct 15, 9:05 PM', text: 'Nobody is just curious about keys.' },
             { id: 'w9', from: 'Winston', time: 'Tue Oct 20, 7:08 PM', media: { kind: 'video', src: '/media/room-3/placeholder-video-2.mp4', caption: 'Running drills. 8th graders are animals. Come take pictures.', code: 'CONES' } },
@@ -429,7 +429,7 @@ export const content: GameContent = {
             { id: 'z3', from: 'me', time: 'Wed Oct 21, 9:02 PM', text: 'ok' },
             { id: 'z4', from: 'Zulmarie', time: 'Wed Oct 21, 9:05 PM', text: 'also i changed your passcode back to your birthday because you kept locking yourself out. youre welcome' },
             { id: 'z5', from: 'Zulmarie', time: 'Fri Oct 23, 9:50 PM', text: 'im parked out front. get in' },
-            { id: 'z5b', from: 'me', time: 'Fri Oct 23, 10:04 PM', media: { kind: 'photo', src: '/media/room-4/placeholder-photo-3.svg', caption: 'pancake crew', code: '1899' } },
+            { id: 'z5b', from: 'me', time: 'Fri Oct 23, 10:04 PM', media: { kind: 'photo', src: '/media/room-4/1899-4.jpeg', caption: 'pancake crew', code: '1899' } },
             { id: 'z5c', from: 'Zulmarie', time: 'Fri Oct 23, 10:05 PM', text: 'SEND THAT TO THE GROUP' },
             { id: 'z5d', from: 'me', time: 'Fri Oct 23, 10:05 PM', text: 'later' },
             { id: 'z6', from: 'me', time: 'Fri Oct 23, 10:44 PM', media: { kind: 'photo', src: '/media/room-4/placeholder-photo.svg', caption: 'get in the car. dont turn around. corner of the building, phone up', code: '8823' } },
@@ -460,7 +460,7 @@ export const content: GameContent = {
     // Clears nobody. Holds the "where" and the hour, plus the things the other
     // rooms' tells point back to: Annee's mug, and Annee saying "Always."
     // Media: Unknown's photo of the place 9163, Annee's kitchen table photo
-    // 2290, Annee's voice memo 4455, Emily's last video LANTERN, detective's
+    // 2290, Annee's voice memo 4455, Emily's last voice memo LANTERN, detective's
     // voicemail 3579.
     // -----------------------------------------------------------------------
     {
@@ -485,10 +485,10 @@ export const content: GameContent = {
             { id: 'a8', from: 'me', time: 'Tue Oct 27, 6:00 PM', text: 'do you have a key to the church' },
             { id: 'a9', from: 'Annee', time: 'Tue Oct 27, 6:08 PM', text: 'No. Why would I? Winston has the keys.' },
             { id: 'a10', from: 'me', time: 'Tue Oct 27, 6:08 PM', text: 'everyone says that' },
-            { id: 'a11', from: 'Annee', time: 'Thu Oct 29, 9:30 PM', media: { kind: 'photo', src: '/media/room-5/placeholder-photo.svg', caption: 'New song for Sunday. You will like this one.', code: '2290' } },
+            { id: 'a11', from: 'Annee', time: 'Thu Oct 29, 9:30 PM', media: { kind: 'photo', src: '/media/room-5/2290-5.jpg', caption: 'New song for Sunday. You will like this one.', code: '2290' } },
             { id: 'a12', from: 'me', time: 'Thu Oct 29, 9:34 PM', text: 'you write at home?' },
             { id: 'a13', from: 'Annee', time: 'Thu Oct 29, 9:35 PM', text: 'Every night. Kitchen table, tea, nobody around. It is the only quiet I get.' },
-            { id: 'a14', from: 'Annee', time: 'Fri Oct 30, 6:52 PM', media: { kind: 'audio', src: '/media/room-5/placeholder-audio.wav', code: '4455' } },
+            { id: 'a14', from: 'Annee', time: 'Fri Oct 30, 6:52 PM', media: { kind: 'audio', src: '/media/room-5/4455-5.mp4', code: '4455' } },
             { id: 'a15', from: 'me', time: 'Fri Oct 30, 6:55 PM', text: 'after service. i promise' },
             { id: 'a16', from: 'Annee', time: 'Fri Oct 30, 7:50 PM', text: 'Come stand by me for the photo. End of the row, by the aisle.' },
             { id: 'a17', from: 'Annee', time: 'Fri Oct 30, 8:11 PM', text: 'Emily please answer me.' },
@@ -499,7 +499,7 @@ export const content: GameContent = {
         detective(1025, 1031, 'tonight'),
         notes([
           { id: 'x1', from: 'me', time: 'Sun Oct 25, 9:45 PM', text: 'they have a key to the church. nobody is supposed to have a key.' },
-          { id: 'x2', from: 'me', time: 'Fri Oct 30, 6:55 PM', media: { kind: 'video', src: '/media/room-5/placeholder-video.mp4', code: 'LANTERN' } },
+          { id: 'x2', from: 'me', time: 'Fri Oct 30, 6:55 PM', media: { kind: 'audio', src: '/media/room-5/placeholder-audio-3.wav', code: 'LANTERN' } },
           { id: 'x3', from: 'me', time: 'Fri Oct 30, 6:57 PM', text: 'telling will after service. all of it.' },
         ]),
       ],

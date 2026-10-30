@@ -6,7 +6,7 @@ The code is **5817**, the same as `screenCode` in `src/content/rooms.ts`. Each n
 
 | Order | Game | Digit | How they get it |
 | --- | --- | --- | --- |
-| 1 | Cup pong | 5 | Two pyramids of ten cups. Five of the twenty cups are white, the rest red. Count the white ones. |
+| 1 | Cup pong | 5 | Two pyramids of ten red cups. Five of the twenty cups have a ping pong ball sitting in them. Count the balls. |
 | 2 | Playing cards | 8 | A stack of number cards. Every value appears at least twice except the eight. |
 | 3 | Giant Jenga | 1 | Written on a block hidden inside the tower. The tower has to come down. |
 | 4 | Dominos | 7 | One face-down tile has Emily's mark on the back. Add its pips. |
@@ -27,7 +27,7 @@ so only people who actually look would find them
 
 tower. its inside
 tiles. find my camera. add it up
-cups. count the white ones
+cups. count the balls
 cards. the one thats alone
 
 the order is in the air
@@ -37,15 +37,15 @@ the order is in the air
 
 ## 2. Cup pong: the 5
 
-**Prep.** The normal setup: two pyramids of ten cups, one at each end of the table. Twenty cups total. Fifteen are red and **five are white**, mixed into both pyramids so neither side has an obvious shape, for example three white on one side and two on the other. That's the whole clue. Count the white cups, get 5.
+**Prep.** The normal setup: two pyramids of ten red cups, one at each end of the table. Twenty cups total, all the same colour. Drop a ping pong ball into **five** of the cups, split across both pyramids so neither side has an obvious shape, for example three on one side and two on the other. It looks like a game somebody walked away from mid-round. That's the whole clue. Count the balls, get 5.
 
-Put a couple of ping pong balls on the table so it looks like a game. The balls don't mean anything.
+No other balls anywhere in the room. Not on the table, not on the floor, not in a pocket. Every loose ball is a wrong answer waiting to happen.
 
-**Watch out.** Keep the white cups split across both pyramids. If all five sit on one side, a kid reads it as "five on this side, so maybe ten." If a kid knocks a pyramid over, the count still works, so don't worry about rebuilding it mid-puzzle.
+**Watch out.** Keep the five balls split across both pyramids. If all five sit on one side, a kid reads it as "five on this side, so maybe ten." If a kid knocks a pyramid over, the balls scatter, so the leader in the room should know where the five were and put them back. Count them out loud when you set up and again right before the doors open.
 
-**Hint if stuck.** "Cups. Count the white ones."
+**Hint if stuck.** "Cups. Count the balls."
 
-**Other digits**, in case you change the code: that many white cups out of the twenty. Avoid using 0 as the cup digit, since there's nothing to count; move the 0 to the Jenga block or the domino instead.
+**Other digits**, in case you change the code: that many balls in the twenty cups. Avoid using 0 as the cup digit, since there's nothing to count; move the 0 to the Jenga block or the domino instead.
 
 ## 3. Giant Jenga: the 1
 
@@ -109,11 +109,11 @@ If they type the four digits in the wrong order, the screen shakes red and clear
 - Let it run on its own for five minutes. After that, give one hint for whichever game nobody has touched, using the exact line from Emily's note.
 - After ten minutes, give second hints freely. Fifteen minutes is the cap. If they're still stuck at fifteen, the leader "finds" the balloon.
 - Set up the room before service and keep the door closed. Cups last, since they're the easiest to knock over.
-- Walk the room once as a kid would. Can you see the 1 from outside the tower. Is the camera visible on the domino from standing height. Is any balloon obviously heavier. Does the note come off the table in one pull.
+- Walk the room once as a kid would. Can you see the 1 from outside the tower. Is the camera visible on the domino from standing height. Is any balloon obviously heavier. Does the note come off the table in one pull. Are there exactly five balls in the room, all of them in cups.
 
 ## Shopping list
 
-- 15 red cups, 5 white cups, a few ping pong balls
+- 20 red cups, exactly 5 ping pong balls (keep any extras out of the room)
 - Giant Jenga, one black marker
 - Two poker decks (one for the stack, one for the spare stack)
 - One domino set with plain backs, fine black marker, round stickers as a backup

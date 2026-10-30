@@ -85,19 +85,21 @@ Hints: "Take the drawer out." / "Nobody makes their bed that neatly."
 
 | Code | Unlocks | Where |
 | --- | --- | --- |
-| `5190` | Unknown's photo from behind Emily | Inside the lockbox. Combination from the stopped clock. |
-| `LIVESTREAM` | Thursday live stream clip | A note in the drawer, printed backwards. Read it in the mirror. |
+| `5190` | Unknown's photo from behind Emily | Inside the lockbox. Combination is the verse on the screen in the live stream clip, Isaiah 43:2. |
+| `LIVESTREAM` | Thursday live stream clip | A note in the drawer, printed backwards. Read it in the mirror. Unlock this first, the lockbox depends on it. |
 | `7788` | Will's voice memo | Rolled up inside the guitar, through the sound hole. |
 | `6271` | Detective's evidence bags | In an offering envelope with "Emily" on it, in the offering plate. |
 | `1130` | The star in the mailbox | Taped to the back of a framed picture on the wall. |
 
-### The stopped clock and the lockbox
+### The live stream and the lockbox
 
-A battery wall clock with the battery out and the hands set to **7:59**. Hang it where a clock would be. Next to the lockbox, a slip in Emily's handwriting: "the clock stopped when the lights went out".
+This room's lockbox opens from the laptop, not from a prop. Once the team unlocks the live stream clip, the screen behind Will shows **Isaiah 43:2**. Next to the lockbox, a slip in Emily's handwriting: "the verse behind will".
 
-Lockbox combination: **759**. Inside: the `5190` card.
+Lockbox combination: **432**. Inside: the `5190` card.
 
-Hint: "What time is it in this room?"
+So the chain is: find the mirrored note, type LIVESTREAM, watch the clip, read the verse off the screen, open the box. It's the only room where a code on the laptop leads to a code in the room, and it forces the team to actually watch the video, which is the one that clears Will.
+
+Hints: "The box opens with something on the laptop." / "What's on the screen behind him?" / "Chapter, verse."
 
 ### The mirrored note
 
@@ -121,7 +123,7 @@ Hints: "Somebody left an offering." / "Pictures have backs."
 
 ### Reset
 
-- Lock the box, scramble, card back inside. Check the clock still says 7:59.
+- Lock the box, scramble, card back inside. Slip back next to it.
 - Fold the mirrored note back into the drawer under the bulletins.
 - Card back in the guitar, card back in the envelope, envelope back in the stack, card back behind the picture.
 
@@ -132,18 +134,27 @@ Hints: "Somebody left an offering." / "Pictures have backs."
 | Code | Unlocks | Where |
 | --- | --- | --- |
 | `5502` | Unknown's star on the table, with the mug | Inside the lockbox. Combination from the marked verse card. |
-| `HOODIE` | Doorbell camera video | Six verse cards around the room, sorted by the number on the back. |
+| `HOODIE` | Doorbell camera photo | Six verse cards around the room, sorted by the number on the back. |
 | `3141` | Winston's keys memo | In the front pocket of the bass gig bag. If no bag, taped to the back of the bass. |
 | `9312` | The church at night, one window lit | Under the foam windscreen of one microphone. |
 | `CONES` | Winston's sports night video | Under the paper liner in the bottom of the drawer. |
 
 ### The verse cards
 
-Seven printed verse cards scattered around the room: on the music stand, taped to the wall, on the drum throne, leaning on the amp. Each has a verse and its reference. On six of them, one word is highlighted and the back has a number 1 to 6. Sorted by number, the first letters of the highlighted words spell **H O O D I E**.
+Seven printed verse cards scattered around the room: on the music stand, taped to the wall, on the drum throne, leaning on the amp. Print `print/verse-cards.pdf` (two pages). Each card is a strip with the verse on the left half and the number on the right half: cut on the solid lines, fold on the dashed line, tape shut, and the number is on the back.
 
-Pick verses with usable words, for example: **H**ope (Romans 15:13), **O**pen (Revelation 3:20), **O**ffer (Romans 12:1), **D**oor (John 10:9), **I**n (Psalm 46:1, "God is our refuge and strength, a very present help **in** trouble"), **E**very (Philippians 4:6).
+On six of them, one word is highlighted and the back has a number 1 to 6. Sorted by number, the first letters of the highlighted words spell **H O O D I E**:
 
-The seventh card has no highlight and no number. It has a small camera drawn in the corner. Its reference is **Psalm 46:1**, same verse as card five, printed again on its own. That's the lockbox card.
+| # | Verse | Highlighted word |
+| --- | --- | --- |
+| 1 | Romans 15:13 | **h**ope |
+| 2 | Revelation 3:20 | **o**pens |
+| 3 | John 14:6 | **o**ne |
+| 4 | John 10:9 | **d**oor |
+| 5 | Psalm 46:1 | **i**n |
+| 6 | Philippians 4:6 | **e**verything |
+
+The seventh card has no highlight and a blank back. It has a small camera printed in the corner. Its reference is **Psalm 46:1**, same verse as card five, printed again on its own. That's the lockbox card.
 
 Lockbox combination: **461**. Inside: the `5502` card.
 
@@ -175,7 +186,7 @@ Hints: "Winston plays bass." / "One mic is dressed differently." / "The drawer h
 | `7034` | Unknown's parking lot photo | Inside the lockbox. Combination is the answer to the pop quiz on the whiteboard. |
 | `6060` | Emily's voice memo to Zulmarie | On one exam paper, in invisible ink. The UV light is in the drawer. |
 | `4807` | Detective's "make the list" memo | Taped under the student desk. |
-| `1899` | Pancake crew under the IHOP sign | Under the desk mat on the teacher's desk. |
+| `1899` | Pancake crew at the IHOP table | Under the desk mat on the teacher's desk. |
 
 ### The schedule
 
@@ -212,7 +223,9 @@ Hint: "Do the warm up."
 
 ### The exam papers and the UV light
 
-A stack of eight graded exams on the student desk. On one of them, in the margin of the last page, write `6060` in invisible ink. In the drawer of the teacher's desk, the UV flashlight and a sticky note that says "grade these", with nothing else that needs UV in the room.
+Five exams on the student desk, printed from `print/exam-*.pdf`. Four are graded in red. The fifth, Devin Okafor's, has an empty score box and no marks. Write `6060` in invisible ink inside the empty score box of that one. In the drawer of the teacher's desk, the UV flashlight and a sticky note that says "grade these", with nothing else that needs UV in the room.
+
+The ungraded exam is the tell. A kid who flips through the stack sees four scores and one blank, and the sticky note points them at it.
 
 Hints: "There's a flashlight in the drawer. It isn't a normal flashlight." / "She didn't finish grading."
 
@@ -226,7 +239,7 @@ Hints: "Students hide things under desks." / "Teachers hide things on top of des
 
 - Re-shuffle the schedule strips.
 - Lock the box, scramble, card back inside. Check the board still has the warm up.
-- Exam with the UV note back into the middle of the stack. UV light back in the drawer.
+- Ungraded exam back into the middle of the stack. UV light back in the drawer.
 - Cards back under both desks.
 
 ---
@@ -237,53 +250,70 @@ Hints: "Students hide things under desks." / "Teachers hide things on top of des
 | --- | --- | --- |
 | `9163` | Unknown's photo of the place | Inside the lockbox. Combination is the total of Emily's receipt, priced from the menu. |
 | `2290` | Annee's chord chart | On the order ticket in the kitchen that matches Emily's receipt. |
-| `LANTERN` | Emily's last video | Seven silverware roll-ups, each with a numbered letter inside. |
+| `LANTERN` | Emily's last voice memo | The specials board. First letter of each special, top to bottom. |
 | `4455` | Annee's voice memo | Taped under the table. |
-| `3579` | Detective's "twenty minutes out" voicemail | Rolled up inside the syrup bottle. |
+| `3579` | Detective's "twenty minutes out" voicemail | Inside the folded table tent on the table. |
 
 ### The menu, the receipt, and the lockbox
 
-Print a one-page IHOP-style menu with about a dozen items and prices. On the table, a receipt with no prices on it, just the items:
+Everything here is printed and ready in the `print/` folder: `menu.pdf` and five guest checks, `receipt-table-*.pdf`. Cut the checks out along the dashed line.
+
+The menu goes in the stand on the table. The five guest checks go in a pile by the register or on the kitchen pass, as if the server hasn't rung them up yet. None of them has prices, just quantities and items. Emily's is **Table 7**, one guest, 9:52 PM:
 
 ```
-Table 7
-1  Chocolate chip pancakes, no whipped cream
+1  Chocolate chip pancakes
+   NO whipped cream
 1  Hash browns
 1  Hot tea
 ```
 
-Chocolate chip, no whipped cream is Emily's order. Prices on the menu: pancakes **$4.50**, hash browns **$3.25**, hot tea **$1.75**. Total **$9.50**.
+The kids know her order from Unknown's text in the group chat ("Chocolate chip. No whipped cream."). Priced from the menu: pancakes **$4.50**, hash browns **$3.25**, hot tea **$1.75**. Total **$9.50**.
 
 Lockbox combination: **950**. Inside: the `9163` card.
 
-Keep the menu prices to quarters so the sum is clean, and don't let any other three items on the menu add up to $9.50.
+The other four checks are other tables from the same night, including the youth group's big order at table 4 and a table 9 that also has chocolate chip pancakes, with extra whipped cream. Priced from the menu they come to $28.25, $20.00, $14.50 and $10.25, so a wrong check gives a wrong combination.
 
-Hints: "She always orders the same thing." / "Add it up."
+Hints: "She always orders the same thing." / "Which check is hers?" / "Add it up."
 
 ### The ticket rail
 
-In the kitchen, five handwritten order tickets on a rail or clipped to a string. Each has a table number, items, and a ticket number at the top. Only one matches the receipt on the table, item for item, and its ticket number is **2290**. The other four are close but wrong: whipped cream on the pancakes, a different table, coffee instead of tea.
+In the kitchen, five handwritten order tickets on a rail or clipped to a string, one for each guest check, same items. Each has a ticket number at the top. The ticket that matches Emily's check is **2290**. Give the other four numbers that aren't codes anywhere in the game, for example 2287, 2288, 2291, 2293.
 
-Hint: "Which ticket is hers?"
+Hint: "Find her ticket in the kitchen."
 
-### The silverware roll-ups
+### The specials board
 
-Seven napkins rolled around plastic forks and knives, in a bus tub by the kitchen. Inside each, a slip with a number and a letter: 1 L, 2 A, 3 N, 4 T, 5 E, 6 R, 7 N. Unroll, sort, read **LANTERN**.
+Print `print/specials-board.pdf` (full page, dark chalkboard look) and tape it to the wall where a real one would hang, by the kitchen or above the table. Seven specials, one per line, numbered 1 to 7. The first letters read down the board spell **LANTERN**:
 
-Hint: "Nobody rolls silverware that carefully."
+```
+TODAY'S SPECIALS
+1  Lemon ricotta pancakes
+2  Avocado toast
+3  Nutella crepes
+4  Tres leches pancakes
+5  Eggs benedict
+6  Red velvet pancakes
+7  NY cheesecake pancakes
+```
 
-### Under the table and in the syrup
+Prices optional. If you add them, don't let any of these show up on the menu, so the receipt sum stays clean. The code is a word, and so far every code the kids have seen is numbers, so expect this one to take a minute. The numbering is the nudge: nothing else on the sign is numbered.
 
-`4455` taped under the table. `3579` rolled tight inside a clean empty syrup bottle, so it rattles. A fork gets it out.
+Hints: "Read the specials." / "Top to bottom, first letters."
 
-Hints: "Under the table." / "What's in the syrup?"
+### Under the table and the table tent
+
+`4455` taped under the table.
+
+`3579` inside a folded table tent, the little A-frame card that sits by the menu stand. Print the outside as an ad, "Kids eat free on Tuesdays" or whatever fits, and tape the code card to the inside face so it only shows when someone picks the tent up and opens it.
+
+Hints: "Under the table." / "Pick up the tent."
 
 ### Reset
 
-- Lock the box, scramble, card back inside. Receipt back on the table, menu back in its stand.
+- Lock the box, scramble, card back inside. Five checks back in the pile, menu back in its stand.
 - Tickets back on the rail in a new order.
-- Re-roll the seven napkins.
-- Card back under the table, card back in the bottle.
+- Table tent folded shut, back by the menu stand. Specials board still on the wall.
+- Card back under the table.
 
 ---
 
@@ -292,19 +322,17 @@ Hints: "Under the table." / "What's in the syrup?"
 - 75 code cards (25 codes, three each)
 - 8 dated photos for the bedroom wall
 - The mirrored LIVESTREAM note
-- 7 verse cards for church room 2
+- 7 verse cards for church room 2 (`print/verse-cards.pdf`)
 - 6 schedule strips
-- 8 exam papers
-- IHOP menu, receipt, 5 order tickets, 7 silverware slips
+- 5 exam papers (`print/exam-*.pdf`)
+- IHOP menu and 5 guest checks (`print/menu.pdf`, `print/receipt-*.pdf`), 5 order tickets, specials board, table tent
 - 5 copies of this sheet, one per room leader, with their room's section highlighted
 
 ## Things to buy or find
 
 - 5 lockboxes with 3-digit dials
 - Removable wall clips or hooks for the photo wall
-- A battery wall clock
 - Offering envelopes, a few framed pictures, an offering plate
 - A mic with a grille that unscrews, a mic with a foam windscreen
-- A clean empty syrup bottle, napkins, plastic silverware, a bus tub
 - Dish soap for the mirror, pencil for the Bible, a fine marker for the camera marks
 - Tape, lots of it
