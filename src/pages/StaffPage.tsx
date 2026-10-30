@@ -1,7 +1,8 @@
 import { useState, type FormEvent } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { content, findRoom } from '../content/rooms'
-import { MEDIA_KINDS, MEDIA_LABEL } from '../content/types'
+import { MEDIA_LABEL } from '../content/types'
+import { lockedMedia } from '../lib/media'
 import { useUnlocks } from '../lib/unlocks'
 
 const SESSION_KEY = 'last-seen:staff'
@@ -40,7 +41,7 @@ export function StaffPage() {
 
   if (!authed) {
     return (
-      <Shell title={`Staff · ${room.owner}'s room`}>
+      <Shell title={`Staff · ${room.device}`}>
         <form onSubmit={submit} className="space-y-3">
           <label className="block text-sm text-neutral-400">Staff PIN</label>
           <input
@@ -65,23 +66,33 @@ function StaffControls({ slug }: { slug: string }) {
   const room = findRoom(slug)!
   const { unlocked, unlock, lock, reset } = useUnlocks(room.slug)
   const [confirming, setConfirming] = useState(false)
+  const items = lockedMedia(room)
 
   return (
-    <Shell title={`Staff · ${room.owner}'s room`}>
+    <Shell title={`Staff · ${room.device} (${room.suspect})`}>
       <section className="space-y-2">
         <h2 className="text-sm uppercase tracking-wider text-neutral-500">Media status</h2>
         <ul className="divide-y divide-neutral-800 rounded-lg border border-neutral-800 overflow-hidden">
-          {MEDIA_KINDS.map((k) => {
-            const open = unlocked.includes(k)
+          {items.map((m) => {
+            const open = unlocked.includes(m.code)
+            const sender = m.message.from === 'me' ? room.owner : m.message.from
             return (
-              <li key={k} className="flex items-center gap-3 px-4 py-3 bg-[#121214]">
-                <div className="flex-1">
-                  <div className="font-medium">{MEDIA_LABEL[k]}s</div>
-                  <div className="text-xs text-neutral-500">Code: <span className="font-mono">{room.codes[k]}</span></div>
+              <li key={m.code} className="flex items-center gap-3 px-4 py-3 bg-[#121214]">
+                <div className="flex-1 min-w-0">
+                  <div className="font-medium">
+                    {MEDIA_LABEL[m.media.kind]} · {m.chat.title}
+                  </div>
+                  <div className="text-xs text-neutral-500 truncate">
+                    {sender}
+                    {m.message.time ? ` · ${m.message.time}` : ''}
+                  </div>
+                  <div className="text-xs text-neutral-500">
+                    Code: <span className="font-mono text-neutral-300">{m.media.code}</span>
+                  </div>
                 </div>
                 <span className={`text-sm ${open ? 'text-emerald-400' : 'text-neutral-400'}`}>{open ? 'Unlocked' : 'Locked'}</span>
                 <button
-                  onClick={() => (open ? lock(k) : unlock(k))}
+                  onClick={() => (open ? lock(m.code) : unlock(m.code))}
                   className="rounded-md border border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-800"
                 >
                   {open ? 'Lock' : 'Unlock'}

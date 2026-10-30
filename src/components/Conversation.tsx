@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react'
-import type { Chat, MediaKind } from '../content/types'
+import type { Chat } from '../content/types'
 import { MessageBubble } from './MessageBubble'
 
-export function Conversation({ chat, unlocked }: { chat: Chat; unlocked: MediaKind[] }) {
+export function Conversation({ chat, unlocked, me }: { chat: Chat; unlocked: string[]; me: string }) {
   const bottomRef = useRef<HTMLDivElement>(null)
   const isGroup = new Set(chat.messages.map((m) => m.from).filter((f) => f !== 'me')).size > 1
 
@@ -18,7 +18,7 @@ export function Conversation({ chat, unlocked }: { chat: Chat; unlocked: MediaKi
       </header>
       <div className="flex-1 overflow-y-auto px-5 py-4 space-y-2">
         {chat.messages.map((m) => (
-          <MessageBubble key={m.id} message={m} unlocked={unlocked} showSender={isGroup} />
+          <MessageBubble key={m.id} message={m} unlocked={unlocked} showSender={isGroup} me={me} />
         ))}
         <div ref={bottomRef} />
       </div>

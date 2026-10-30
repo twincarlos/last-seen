@@ -14,6 +14,12 @@ export interface MediaAttachment {
   src: string
   /** Optional caption shown under the media once unlocked. */
   caption?: string
+  /**
+   * Unlock code for this one item. Case-insensitive, whitespace ignored.
+   * Must be unique across the whole game. Leave it out for media that is
+   * visible from the start.
+   */
+  code?: string
 }
 
 export interface Message {
@@ -38,15 +44,19 @@ export interface Chat {
 export interface Room {
   id: number
   slug: string
-  /** The youth leader whose laptop this is. */
+  /** Whose messages render as "me". Every device is Emily's. */
   owner: string
-  /** Unlock codes, one per media type. Case-insensitive, whitespace ignored. */
-  codes: Record<MediaKind, string>
+  /** Shown in the app header, e.g. "Emily's phone backup". */
+  device: string
+  /** The leader whose private thread lives on this device. Used by the setup and staff pages. */
+  suspect: string
   chats: Chat[]
 }
 
 export interface GameContent {
   /** PIN for the hidden /room/:slug/staff page. */
   staffPin: string
+  /** Code the kids type on the main LED screen page (/screen) to unlock Emily's phone. */
+  screenCode: string
   rooms: Room[]
 }

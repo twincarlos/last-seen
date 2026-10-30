@@ -24,7 +24,7 @@ function RoomView({ slug }: { slug: string }) {
       <div className="flex-1 flex min-h-0">
         <ChatList room={room} activeId={chat?.id ?? ''} onSelect={setActiveId} unlocked={unlocked} />
         {chat ? (
-          <Conversation chat={chat} unlocked={unlocked} />
+          <Conversation chat={chat} unlocked={unlocked} me={room.owner} />
         ) : (
           <div className="flex-1 flex items-center justify-center text-neutral-500">No conversations</div>
         )}

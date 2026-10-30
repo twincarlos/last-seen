@@ -1,33 +1,35 @@
 import { useState, type FormEvent } from 'react'
-import type { MediaKind, Room } from '../content/types'
-import { MEDIA_KINDS, MEDIA_LABEL } from '../content/types'
+import type { Room } from '../content/types'
+import { MEDIA_LABEL } from '../content/types'
+import { lockedMedia } from '../lib/media'
 import { normalizeCode } from '../lib/unlocks'
 import { LockIcon } from './Icons'
 
 type Feedback = { tone: 'ok' | 'bad' | 'info'; text: string } | null
 
-export function CodeEntry({ room, unlocked, onUnlock }: { room: Room; unlocked: MediaKind[]; onUnlock: (kind: MediaKind) => void }) {
+export function CodeEntry({ room, unlocked, onUnlock }: { room: Room; unlocked: string[]; onUnlock: (code: string) => void }) {
   const [value, setValue] = useState('')
   const [feedback, setFeedback] = useState<Feedback>(null)
   const [shake, setShake] = useState(false)
 
-  const allUnlocked = MEDIA_KINDS.every((k) => unlocked.includes(k))
+  const items = lockedMedia(room)
+  const allUnlocked = items.every((m) => unlocked.includes(m.code))
 
   function submit(e: FormEvent) {
     e.preventDefault()
     const code = normalizeCode(value)
     if (!code) return
-    const match = MEDIA_KINDS.find((k) => normalizeCode(room.codes[k]) === code)
+    const match = items.find((m) => m.code === code)
     setValue('')
     if (!match) {
       setFeedback({ tone: 'bad', text: 'Incorrect code' })
       setShake(true)
       setTimeout(() => setShake(false), 400)
-    } else if (unlocked.includes(match)) {
-      setFeedback({ tone: 'info', text: `${MEDIA_LABEL[match]}s are already unlocked` })
+    } else if (unlocked.includes(match.code)) {
+      setFeedback({ tone: 'info', text: 'Already unlocked' })
     } else {
-      onUnlock(match)
-      setFeedback({ tone: 'ok', text: `${MEDIA_LABEL[match]}s unlocked` })
+      onUnlock(match.code)
+      setFeedback({ tone: 'ok', text: `${MEDIA_LABEL[match.media.kind]} unlocked in ${match.chat.title}` })
     }
     setTimeout(() => setFeedback(null), 2500)
   }
